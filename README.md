@@ -5,7 +5,7 @@ Starter template to develop a Deno application with `@oak/oak` and `@dklab/oak-r
 Read more:
 - [Oakserver](https://oakserver.org/)
 - [oak-routing-ctrl](https://jsr.io/@dklab/oak-routing-ctrl)
-- [Deno]https://deno.com/)
+- [Deno](https://deno.com/)
 
 # How to use this template
 
