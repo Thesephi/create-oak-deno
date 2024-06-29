@@ -1,0 +1,27 @@
+{
+  "name": "create-oak-deno",
+  "description": "npm init template for a Deno application using oak & oak-routing-ctrl",
+  "version": "1.0.0",
+  "main": "./lib/main.js",
+  "bin": {
+    "create-oak-bun": "lib/main.js"
+  },
+  "exports": {
+    ".": "./lib/main.js"
+  },
+  "scripts": {
+    "dr": "npm publish --dry-run",
+    "pub": "npm i && npm publish"
+  },
+  "license": "MIT",
+  "keywords": [
+    "oak",
+    "oak-routing-ctrl",
+    "nodejs",
+    "typescript",
+    "decorator",
+    "api",
+    "scaffold",
+    "deno"
+  ]
+}

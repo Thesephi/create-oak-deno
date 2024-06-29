@@ -1,0 +1,8 @@
+console.log('scaffolding project in', dirname, '...')
+
+module.exports = {
+  imports: {
+    "@oak/oak": "jsr:@oak/oak@^16.1.0",
+    "@dklab/oak-routing-ctrl": "jsr:@dklab/oak-routing-ctrl@^0.7.4"
+  }
+}
