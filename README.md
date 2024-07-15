@@ -10,5 +10,5 @@ Read more:
 # How to use this template
 
 ```bash
-npm create oak-deno
+npm create oak-deno@latest
 ```
