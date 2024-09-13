@@ -2,8 +2,8 @@ console.log('scaffolding project in', dirname, '...')
 
 module.exports = {
   imports: {
-    "@oak/oak": "jsr:@oak/oak@^16.1.0",
-    "@dklab/oak-routing-ctrl": "jsr:@dklab/oak-routing-ctrl@^0.9.0",
+    "@oak/oak": "jsr:@oak/oak@^17.0.0",
+    "@dklab/oak-routing-ctrl": "jsr:@dklab/oak-routing-ctrl@^0.11.0",
   },
   tasks: {
     "dev": "deno run --allow-env --allow-net --watch src/index.ts",
