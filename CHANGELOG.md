@@ -1,3 +1,9 @@
+## [1.3.0] - 2024-11-15
+
+### Changed
+
+- library upgrades (`@dklab/oak-routing-ctrl@^0.12.1`, `@oak/oak@^17.1.3`, `@std/testing@1.0.5`)
+
 ## [1.2.0] - 2024-09-14
 
 ### Changed
