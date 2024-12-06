@@ -3,10 +3,12 @@ console.log('scaffolding project in', dirname, '...')
 module.exports = {
   imports: {
     "@oak/oak": "jsr:@oak/oak@^17.1.3",
-    "@dklab/oak-routing-ctrl": "jsr:@dklab/oak-routing-ctrl@^0.12.1",
+    "@dklab/oak-routing-ctrl": "jsr:@dklab/oak-routing-ctrl@^0.12.2",
   },
   tasks: {
     "dev": "deno run --allow-env --allow-net --watch src/index.ts",
-    "test": "deno test --allow-env --allow-read --allow-net",
+
+    // @HEADSUP: the '--allow-import' option only works with Deno 2 and up
+    "test": "deno test --allow-env --allow-read --allow-net --allow-import",
   },
 }

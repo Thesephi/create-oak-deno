@@ -5,4 +5,5 @@ import { MyController } from "./MyController.ts";
 const app = new Application();
 useOakServer(app, [MyController]);
 useOas(app);
-await app.listen({ port: 1993 });
+app.addEventListener("listen", (l) => console.log(`App listening on ${l.port}`));
+app.listen({ port: 1993 });

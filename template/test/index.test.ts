@@ -3,6 +3,10 @@ import { Application } from "@oak/oak";
 import { useOakServer, useOas } from "@dklab/oak-routing-ctrl";
 import { MyController } from "../src/MyController.ts";
 
+// this helps the test works on both Deno 1 and Deno 2
+// as long as `superoak` still doesn't switch away from `window`
+if (!globalThis.window) globalThis.window = globalThis as any;
+
 const app = new Application();
 useOakServer(app, [MyController]);
 useOas(app);

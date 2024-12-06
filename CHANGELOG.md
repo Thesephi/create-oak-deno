@@ -1,14 +1,25 @@
+## [2.0.0] - 2024-12-06
+
+### Changed
+
+- library upgrade (`@dklab/oak-routing-ctrl@^0.12.2`)
+- support Deno 2 by updating the `deno test` task (**BREAKING CHANGE**: this
+  task no longer works on Deno 1)
+- updated boilerplate code to log a message on service ready (`listen` event)
+
 ## [1.3.0] - 2024-11-15
 
 ### Changed
 
-- library upgrades (`@dklab/oak-routing-ctrl@^0.12.1`, `@oak/oak@^17.1.3`, `@std/testing@1.0.5`)
+- library upgrades (`@dklab/oak-routing-ctrl@^0.12.1`, `@oak/oak@^17.1.3`,
+  `@std/testing@1.0.5`)
 
 ## [1.2.0] - 2024-09-14
 
 ### Changed
 
-- library upgrades (`@dklab/oak-routing-ctrl@^0.11.0`, `@oak/oak@^17.0.0`, `@std/testing@1.0.2`)
+- library upgrades (`@dklab/oak-routing-ctrl@^0.11.0`, `@oak/oak@^17.0.0`,
+  `@std/testing@1.0.2`)
 
 ## [1.1.1] - 2024-07-16
 
@@ -23,7 +34,8 @@
 - sample integration test
 - template code to support OpenAPI Spec serving
 - template test code to cover OpenAPI Spec serving
-- support for `-y` (alternatively: `--yes`, `-f`, `--force`) flag (example: `npm create oak-deno -- -y`)
+- support for `-y` (alternatively: `--yes`, `-f`, `--force`) flag (example:
+  `npm create oak-deno -- -y`)
 
 ### Changed
 
