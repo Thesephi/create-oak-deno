@@ -1,3 +1,10 @@
+## [2.0.1] - 2024-12-06
+
+### Fixed
+
+- typo fix in library script name `create-oak-bun` => `create-oak-deno`
+- directory copying should no longer fail when used with `deno init --npm oak-deno`
+
 ## [2.0.0] - 2024-12-06
 
 ### Changed

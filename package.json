@@ -1,10 +1,10 @@
 {
   "name": "create-oak-deno",
   "description": "npm init template for a Deno application using oak & oak-routing-ctrl",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "main": "./lib/main.js",
   "bin": {
-    "create-oak-bun": "lib/main.js"
+    "create-oak-deno": "lib/main.js"
   },
   "exports": {
     ".": "./lib/main.js"
