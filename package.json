@@ -6,6 +6,9 @@
   "bin": {
     "create-oak-deno": "lib/main.js"
   },
+  "repository": {
+    "url": "https://github.com/Thesephi/create-oak-deno"
+  },
   "exports": {
     ".": "./lib/main.js"
   },

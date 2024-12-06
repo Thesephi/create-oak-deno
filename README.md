@@ -9,6 +9,12 @@ Read more:
 
 # How to use this template
 
+With "native" Deno:
+```bash
+deno init --npm oak-deno@latest
+```
+
+With Node.js:
 ```bash
 npm create oak-deno@latest
 ```
