@@ -1,9 +1,17 @@
+## [2.0.2] - 2024-12-06
+
+## Fixed
+
+- fixed a bug in `2.0.1` where `deno init --npm oak-deno` fails due to the
+  difference in how Node.js and Deno handle `fs.copy`
+
 ## [2.0.1] - 2024-12-06
 
 ### Fixed
 
 - typo fix in library script name `create-oak-bun` => `create-oak-deno`
-- directory copying should no longer fail when used with `deno init --npm oak-deno`
+- directory copying should no longer fail when used with
+  `deno init --npm oak-deno`
 
 ## [2.0.0] - 2024-12-06
 
